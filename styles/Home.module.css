@@ -1,64 +1,8 @@
-.loginBtn {
-	width: 70% !important;
-	height: 3.6rem !important;
-	font-size: 1.6rem !important;
-	font-weight: bold;
-
-	align-self: center;
-	justify-self: center;
-	margin-top: 1.2rem;
-}
-
-.loginBtn:hover,
-.loginBtn:focus,
-.loginBtn:active {
-	background-color: var(--color-primary-dark) !important;
-	mix-blend-mode: multiply;
-}
-
-.titleContainer {
+.navContainer {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: center;
-	gap: 1rem;
-}
-
-.title {
-	font-size: 3.2rem;
-	font-weight: bold;
-	text-align: center;
-	color: var(--color-primary);
-}
-
-.signUpLink {
-	font-size: 1.2rem;
-	cursor: pointer;
-	margin-top: -1.2rem;
-	margin-bottom: 4rem;
-}
-
-.googleBtnContainer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
-
-.googleImg {
-	width: 100%;
-	border: 1px solid var(--color-primary);
-	cursor: pointer;
-}
-
-.googleBtn {
-	padding: 0;
-	background-color: #fff !important;
-}
-
-.googleBtn:hover,
-.googleBtn:focus,
-.googleBtn:active {
-	background-color: #ddd !important;
+	height: 5rem;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e0e0e0;
 }

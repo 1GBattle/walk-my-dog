@@ -4,7 +4,7 @@ import { NextPage } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import NavBar from '../components/NavBar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Login.module.css'
 import { useRouter } from 'next/router'
 import { useAppDispatch } from '../redux/hooks'
 import { logInUser } from '../redux/userSlice'
@@ -42,6 +42,8 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<NavBar />
+
+			<h1>Home</h1>
 
 			<div className={styles.titleContainer}>
 				<h1 className={styles.title}>Welcome to Walk My Dog!</h1>
